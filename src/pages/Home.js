@@ -6,6 +6,9 @@ export default function Home() {
         <>
             <Navigation />
             <Hero />
+            <div className="mt-5 px-5">
+                <h2 className="font-medium text-xl">Chat History</h2>
+            </div>
         </>
     )
 }
