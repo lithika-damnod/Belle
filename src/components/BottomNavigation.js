@@ -9,7 +9,7 @@ export default function BottomNavigation() {
                     <ArrowUp className="rotate-45" />
                 </button>
             </div>
-            <div className="pointer-events-none flex justify-center fixed bottom-0 w-full h-[260px] z-40" style={{ background: "rgb(0,0,0)", background: "linear-gradient(180deg, rgba(255,255,255,0) -10%, rgba(0,0,0,1) 99%)" }} />
+            <div className="pointer-events-none flex justify-center fixed bottom-0 w-full h-[260px] z-40" style={{ background: "linear-gradient(180deg, rgba(255,255,255,0) -10%, rgba(0,0,0,1) 99%)" }} />
         </>
     )
 }
