@@ -1,14 +1,16 @@
+import BottomNavigation from "../components/BottomNavigation";
+import ChatHistory from "../components/ChatHistory";
 import Hero from "../components/Hero";
+import { ArrowUp, Search } from "../components/icons";
 import Navigation from "../components/Navigation";
 
 export default function Home() {
     return (
         <>
             <Navigation />
+            <BottomNavigation />
             <Hero />
-            <div className="mt-5 px-5">
-                <h2 className="font-medium text-xl">Chat History</h2>
-            </div>
+            <ChatHistory />
         </>
     )
 }
